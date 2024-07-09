@@ -15,7 +15,7 @@ function Education() {
      <ResumeCard
       title="Btech in Electronics & Computer Engineering"
       subTitle="(2022-2025)"
-      result="8.0/10.0"
+      result="8.05/10.0"
       des="IET,Lucknow "
       />
        <ResumeCard
