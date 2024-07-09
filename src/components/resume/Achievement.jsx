@@ -39,7 +39,7 @@ function Achievement() {
           <div className='flex flex-row justify-center items-center gap-x-10'>
           <a className="underline hover:text-designColor duration-300 visited:text-blue-600" href="https://leetcode.com/adityavish1/" target="_blank" rel="noopener noreferrer" >Leetcode</a>
           <a className="underline hover:text-designColor  duration-300 visited:text-blue-600" href="https://auth.geeksforgeeks.org/user/adityavishwtu71" target="_blank" rel="noopener noreferrer" >GFG</a>
-          <a className="underline  hover:text-designColor  duration-300 visited:text-blue-600" href="https://www.codechef.com/users/adityavish1" target="_blank" rel="noopener noreferrer"  >CodeChef</a>
+          <a className="underline  hover:text-designColor  duration-300 visited:text-blue-600" href="https://www.codechef.com/users/adityavish12" target="_blank" rel="noopener noreferrer"  >CodeChef</a>
           
           </div>
           </div>
