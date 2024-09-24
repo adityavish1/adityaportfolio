@@ -33,13 +33,22 @@ function Achievement() {
           </div>
           <div className='flex flex-col  gap-y-5'>
             <div  className='flex flex-row justify-center items-center'>
-            <h2 className='px-3'>I have solved 300+ problems on Different Coding Plateforms.</h2>
+              <div>
+            
+            <h2 className='px-3'>Ranked 316th out of 19,000+ participants in CodeChef Starters 141 Division 4</h2>
+            <h2 className='px-3'>Ranked 188th out of 4000+ participants in CodeChef Starters 144 Division 3</h2>
+            <h2 className='px-3'>CodeChef Max Rating: 1706 (3-Star).</h2>
+            <h2 className='px-3'>LeetCode Max Rating: 1686</h2>
+            <h2 className='px-3'>I have solved 400+ problems on Different Coding Plateforms.</h2>
+              </div>
+           
             </div>
         
-          <div className='flex flex-row justify-center items-center gap-x-10'>
+          <div className='flex flex-row justify-center items-center gap-x-3'>
           <a className="underline hover:text-designColor duration-300 visited:text-blue-600" href="https://leetcode.com/adityavish1/" target="_blank" rel="noopener noreferrer" >Leetcode</a>
           <a className="underline hover:text-designColor  duration-300 visited:text-blue-600" href="https://auth.geeksforgeeks.org/user/adityavishwtu71" target="_blank" rel="noopener noreferrer" >GFG</a>
           <a className="underline  hover:text-designColor  duration-300 visited:text-blue-600" href="https://www.codechef.com/users/adityavish12" target="_blank" rel="noopener noreferrer"  >CodeChef</a>
+          <a className="underline  hover:text-designColor  duration-300 visited:text-blue-600" href="https://codeforces.com/profile/Aditya8052" target="_blank" rel="noopener noreferrer"  >Codeforces</a>
           
           </div>
           </div>

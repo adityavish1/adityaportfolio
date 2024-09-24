@@ -47,7 +47,7 @@ function Contact() {
     }
   };
   return (
-   <section id="contact" className='w-full py-20 border-b-[1px] border-b-black'>
+   <section id="contact" className='w-full py-20 border-b-[1px] border-b-black lg:px-16'>
     <div className='flex justify-center items-center text-center'>
         <Title 
         title="CONTACT" des="Contact with me"

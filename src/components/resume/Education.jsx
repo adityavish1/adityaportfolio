@@ -11,7 +11,7 @@ function Education() {
     </div>
     
     
-    <div className='mt-14 w-full mdl:w-4/5   h-[700px] border-l-[7px] border-l-black border-opacity-30 flex flex-col  gap-1'>
+    <div className='mt-14 w-full mdl:w-4/5  lgl:w-3/5 h-[700px] border-l-[7px] border-l-black border-opacity-30 flex flex-col  gap-1'>
      <ResumeCard
       title="Btech in Electronics & Computer Engineering"
       subTitle="(2022-2025)"

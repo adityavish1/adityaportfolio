@@ -13,7 +13,7 @@ export default {
         md: "667px",
         mdl: "768px",
         lg: "960px",
-        lgl: "1024px",
+        lgl: "1100px",
         xl: "1280px",
       },
       fontFamily: {

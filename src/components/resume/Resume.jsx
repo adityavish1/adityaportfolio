@@ -11,9 +11,9 @@ const Resume = () => {
    const [experienceData, setExperienceData] = useState(false);
    const [achievementData, setAchievementData] = useState(false);
   return (
-    <section id="resume" className="w-full py-20 border-b-[1px] border-b-black">
+    <section id="resume" className="w-full py-20 border-b-[1px] border-b-black lg:px-16">
       <div className="flex justify-center items-center text-center">
-        <Title title={<a href="https://drive.google.com/file/d/1iu6bGrTjv_NhmhZzjlYjazdOwmbqu-ks/view?usp=drivesdk " target="_blank" rel="noopener noreferrer" >DOWNLOAD</a>} des="My Resume" />
+        <Title title={<a href="https://drive.google.com/file/d/16ArXb9xtMdvj3v_qszoTz4iv5-YRFOvO/view?usp=drivesdk" target="_blank" rel="noopener noreferrer" ><span className='text-blue-400 lgl:text-xl'>DOWNLOAD <span>&#8681;</span> RESUME</span></a>} des="My Resume" />
       </div>
       <div>
         <ul className="w-full my-10 grid grid-cols-1 md:grid-cols-2 lgl:grid-cols-4">

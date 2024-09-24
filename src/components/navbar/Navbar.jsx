@@ -2,6 +2,9 @@ import React from 'react'
 import { useState } from 'react'
 import { MdClose } from "react-icons/md"
 import { FaFacebookF, FaTwitter, FaLinkedinIn } from "react-icons/fa"
+import { SiLeetcode, SiCodeforces, SiNextdotjs,SiCodechef } from "react-icons/si";
+
+import {BsGithub} from "react-icons/bs";
 import {logo} from "../../assets/Index"
 import {FiMenu} from "react-icons/fi"
 import {navLinksdata} from '../../constants/Index'
@@ -10,8 +13,8 @@ function Navbar() {
   const [showMenu, setShowMenu]=useState(false)
   return (
     <div className='w-full h-24 mx-auto sticky top-0  z-50 bg-bodyColor flex justify-between items-center font-titleFont border-b-[1px] border-b-gray-600  px-10'>
-     <div className='-mx-12'>
-    <img className='w-full h-20' src={logo} alt="logo" />
+     <div className='-mx-10 lg:-mx-1'>
+     <h1 className='text-xl lg:text-4xl  font-bold text-white  '>ADITYA VISHWAKARMA</h1>
      </div>
      <div>
     <ul className='hidden mdl:inline-flex items-center gap-6 lg:gap-12 '>
@@ -51,7 +54,7 @@ function Navbar() {
           <div>
                 <img className="w-32" src={logo} alt="logo" />
                 <p className="text-sm text-gray-400 mt-2">
-                "Experienced Frontend Developer proficient in React, Tailwind CSS, and JavaScript, with a solid foundation in Data Structures and Algorithms in C++. Skilled in crafting responsive web applications and integrating backend technologies like Node.js, Express.js, and MongoDB for full-stack development."
+                "MERN Stack Developer with a strong understanding of Data Structures and Algorithms (DSA). Proficient in creating dynamic web applications using MongoDB, Express.js, React, and Node.js. Skilled at solving complex problems and optimizing code for performance. Dedicated to delivering high-quality, innovative solutions that enhance user experience and drive business success."
                 </p>
               </div>
               <ul className='flex flex-col gap-4 overflow-x-clip '>
@@ -84,15 +87,16 @@ function Navbar() {
                   Find me in
                 </h2>
                 <div className="flex gap-4">
-                  <span className="bannerIcon">
-                    <FaFacebookF />
-                  </span>
-                  <span className="bannerIcon">
-                    <FaTwitter />
-                  </span>
-                  <span className="bannerIcon">
-                  <a href="https://www.linkedin.com/in/aditya-vishwakarma-851531250?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" rel="noopener noreferrer" ><FaLinkedinIn /></a>
-                  </span>
+                <span className="bannerIcon">
+              
+              <a href="https://leetcode.com/u/adityavish1/" target="_blank" rel="noopener noreferrer" ><SiLeetcode /></a>
+            </span>
+            <span className="bannerIcon">
+            <a href="https://github.com/adityavish1" target="_blank" rel="noopener noreferrer" ><BsGithub /></a>
+            </span>
+            <span className="bannerIcon">
+                <a href="https://www.linkedin.com/in/aditya-vishwakarma-851531250?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" rel="noopener noreferrer" ><FaLinkedinIn /></a>
+            </span>
                 </div>
               </div>
               <span
