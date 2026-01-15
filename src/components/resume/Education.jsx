@@ -14,13 +14,13 @@ function Education() {
     <div className='mt-14 w-full mdl:w-4/5  lgl:w-3/5 h-[700px] border-l-[7px] border-l-black border-opacity-30 flex flex-col  gap-1'>
      <ResumeCard
       title="Btech in Electronics & Computer Engineering"
-      subTitle="(2025)"
-      result="8.05/10.0"
+      subTitle=""
+      result="8.35/10.0"
       des="IET,Lucknow "
       />
        <ResumeCard
       title="CITS in Electronic Mechanic"
-      subTitle="()"
+      subTitle=""
       result="91.33%"
       des="NSTI Kanpur"
       />
